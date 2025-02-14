@@ -22,16 +22,16 @@ export default function Home() {
         </div>
         <Dialog>
           <DialogTrigger asChild className=''>
-            <Button className="bg-transparent p-2 sm:p-4 text-9xl sm:text-[64px] md:text-[124px] lg:text-[200px] hover:text-red-500"><p className='w-full'>💌</p></Button>
+            <Button className="bg-transparent p-2 sm:p-4 text-6xl sm:text-[64px] md:text-[124px] lg:text-[200px] hover:text-red-500"><p className='w-full'>💌</p></Button>
           </DialogTrigger>
-          <DialogContent className='bg-pink-200 border-r-8 rounded-2xl max-w-md sm:max-w-lg w-10/12 h-2/3'>
+          <DialogContent className='bg-pink-200 border-r-8 rounded-2xl max-w-md sm:max-w-lg w-10/12 h-auto'>
             <DialogHeader>
               <DialogTitle>
-                <p className={`text-4xl ${inter.className}`}>Nat 😄</p>
+                <p className={`text-3xl sm:text-4xl ${inter.className}`}>Nat 😄</p>
               </DialogTitle>
             </DialogHeader>
-            <p className={`text-large sm:text-xl ${inter.className}`}>Even though we’ve only just met, there’s something about you that feels special and familiar, like a song I’ve always enjoyed but only just heard. I’m glad our paths crossed, and I’d love to keep discovering the little things that make you, you. Happy Valentine’s Day filled with smiles, laughter, and maybe even a little bit of us.</p>
-            <div className="relative w-full h-[80px] md:h-[180px] border-white rounded-lg shadow-lg overflow-hidden mt-4">
+            <p className={`text-base sm:text-xl ${inter.className}`}>Even though we’ve only just met, there’s something about you that feels special and familiar, like a song I’ve always enjoyed but only just heard. I’m glad our paths crossed, and I’d love to keep discovering the little things that make you, you. Happy Valentine’s Day filled with smiles, laughter, and maybe even a little bit of us.</p>
+            <div className="relative w-full h-[60px] sm:h-1/2 border-white rounded-lg shadow-lg overflow-hidden mt-4">
               <Image src="/nat.jpg" alt="Nat" layout="fill" objectFit="cover" objectPosition="center 48%"/>
             </div>
           </DialogContent>
