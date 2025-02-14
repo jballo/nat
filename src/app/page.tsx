@@ -36,6 +36,12 @@ export default function Home() {
             </div>
           </DialogContent>
         </Dialog>
+        <div>
+          <h1 className={`text-3xl text-center sm:text-8xl text-white ${inter.className}`}>
+            From:<br />
+            Jonathan Ballona
+          </h1>
+        </div>
       </div>
     </div>
 
