@@ -31,7 +31,7 @@ export default function Home() {
               </DialogTitle>
             </DialogHeader>
             <p className={`text-large sm:text-xl ${inter.className}`}>Even though we’ve only just met, there’s something about you that feels special and familiar, like a song I’ve always enjoyed but only just heard. I’m glad our paths crossed, and I’d love to keep discovering the little things that make you, you. Happy Valentine’s Day filled with smiles, laughter, and maybe even a little bit of us.</p>
-            <div className="relative w-full h-48 sm:h-64 border-4 border-white rounded-lg shadow-lg overflow-hidden mt-4">
+            <div className="relative w-full h-[80px] md:h-[180px] border-white rounded-lg shadow-lg overflow-hidden mt-4">
               <Image src="/nat.jpg" alt="Nat" layout="fill" objectFit="cover" objectPosition="center 48%"/>
             </div>
           </DialogContent>
